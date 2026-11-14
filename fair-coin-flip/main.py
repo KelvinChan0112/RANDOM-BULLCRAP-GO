@@ -33,7 +33,9 @@ def main() -> None:
                 
     except RuntimeError:
         print("Maybe it was your luck's fault = =")
-    except TypeError, ValueError, NameError:
+    except TypeError:
+        print("Please enter actual value..")
+    except ValueError:
         print("Please enter actual value..")
 
 
