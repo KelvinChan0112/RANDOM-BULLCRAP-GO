@@ -1,9 +1,8 @@
+#file name: main.py
 import random as rd
 def main() -> None:
     try:
         time_per_flip: float = float(input("Enter time taken to flip the coin once(s): "))
-        if time_per_flip == -1:
-            flag = False
         chance_of_head: float = float(input("Enter chance of getting a head(no need to type %): "))
         streak: int = 0
         total_time_taken: float = 0
